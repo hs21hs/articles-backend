@@ -1,15 +1,13 @@
 class ArticlesController < ApplicationController
   
-
   def index
     articles = Article.all
 
-    render json: {"articles": articles}
+    render json: {"articles":articles}
   end
 
   def create
-    a = Article.create({a_id:article_params["a_id"], likes:0})
-    puts 'WE HAVE now CREARTEEDDDDDD'
+    Article.create({a_id:article_params["a_id"], likes:0})
   end 
 
   def createLike 
