@@ -1,24 +1,13 @@
 # README
+recorded demo: https://youtu.be/xOQBfIg6OpU
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To start this app please run the following commands
+1. bundle install
+2. rails db:create (if needed)
+3. rails db:migrate
+4. rails s
 
-Things you may want to cover:
+To run tests please use "rspec" command
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
