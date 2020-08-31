@@ -14,7 +14,7 @@ RSpec.describe Article, type: :model do
       expect(article).to eq(false)
     end
 
-    it 'ensures article can be created when likes, and a_id column are present' do
+    it 'ensures article can be created when; likes and a_id column are present' do
       article = Article.new({a_id:20, likes:0}).save
       article2 = Article.new({a_id:20, likes:0}).save
 
