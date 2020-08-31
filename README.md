@@ -9,5 +9,7 @@ To start this app please run the following commands
 
 To run tests please use "rspec" command
 
+Link to frontend repo: https://github.com/hs21hs/articles-frontend
+
 
 
