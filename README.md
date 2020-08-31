@@ -10,6 +10,6 @@ To start this app please run the following commands
 
 To run tests please use "rspec" command
 
-
+Thank You.
 
 
